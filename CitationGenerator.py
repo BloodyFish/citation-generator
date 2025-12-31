@@ -13,10 +13,12 @@ def generate_citation_MLA(author, title, site_name, publisher, date, url):
         if len(author) == 2:
             author_citation = f"{author[0].split()[1]}, {author[0].split()[0]}, and {author[1]}. "
         else:
-            author_citation = f"{author[0].split()[1]}. "
-
+            author_citation = f"{author[0].split()[1]}, {author[0].split()[0]}"
+            
+            if len(author) == 1:
+                author_citation += ". "
             if len(author) >= 3:
-                author_citation += "et al. "
+                author_citation += ", et al. "
 
     else:
         author_citation = ""
