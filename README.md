@@ -18,3 +18,5 @@ Author(s):  ['Nadia Khomami']
 
 Khomami, Nadia. "€1M Picasso Portrait Up For Grabs For €100 In Charity Raffle." The Guardian, 31 Dec. 2025, https://www.theguardian.com/artanddesign/2025/dec/31/picasso-portrait-charity-auction-alzheimers.
 ```
+## Disclaimer
+Currently, only MLA format is supported.
